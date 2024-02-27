@@ -23,7 +23,6 @@ function  calculatesFarePrice(x, y){
         return 25
     else if (dis > 2500) 
         return 'cannot travel that far'   
-
 }
 
 console.log(calculatesFarePrice(34, 32))
